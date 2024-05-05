@@ -56,7 +56,7 @@ jobs:
           # Для каждого пересобранного образа 
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
-          tags: no884990@gmail.com/taski_backend:latest 
+          tags: 12qe32d2e/taski_backend:latest 
     # Копируем код проекта
     - name: Check out code
       uses: actions/checkout@v3
