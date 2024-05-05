@@ -64,7 +64,7 @@ jobs:
         # При помощи with передаём в action параметры username и password
         with:
           username: 12qe32d2e
-          password: 12qe32d2e
+          password: 12345/
       - name: Push to DockerHub
         # Одновременный билд и пуш образа в Docker Hub
         uses: docker/build-push-action@v4
